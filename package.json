@@ -1,0 +1,19 @@
+{
+  "name": "tinder-clone",
+  "version": "1.0.0",
+  "description": "a clone of the famous dating website Tinder",
+  "repository": {
+    "type": "git",
+    "url": "node js, javascript"
+  },
+  "license": "ISC",
+  "author": "Pranav Garg",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
