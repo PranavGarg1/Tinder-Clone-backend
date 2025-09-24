@@ -18,6 +18,12 @@ const userSchema = new mongoose.Schema(
         }
       },
     },
+    age: { type: Number },
+    photoUrl: {
+      type: String,
+      default:
+        "https://www.vhv.rs/dpng/d/256-2569650_men-profile-icon-png-image-free-download-searchpng.png",
+    },
     gender: {
       type: String,
       uppercase: true,
